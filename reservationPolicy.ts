@@ -44,7 +44,7 @@ export interface PolicyResult {
 
 export const ReservationPolicyConfig = {
   /** 예약 가능한 최소 리드타임 (지금으로부터 최소 이 시간 이후만 예약 가능) */
-  MIN_LEAD_TIME_HOURS: 2,
+  MIN_LEAD_TIME_HOURS: 4,
   /** 예약 가능한 최대 기간 (며칠 후까지 예약 가능한지) */
   MAX_ADVANCE_DAYS: 60,
   /** 운영 시작 시각 (24시간제) */
